@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Service</title>
+    <link rel="stylesheet" href="stijlen.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="hero">
+        <nav>
+          <h2 class="logo">MJ <span>Lifestyle</span></h2>
+          <ul>
+            <li><a href="index.html">Startpagina</a></li>
+            <li><a href="Overons.html">Over ons</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <button type="button">Abonneer</button>
+        </nav>
+        <div class="flex-container">
+            <div class="col">
+              <h3>Basispakket:</h3>
+              <p>
+                Leefstijl advies zonder samengesteld voedingsschema.<br>
+                1 x per maand check up.
+              </p>
+              <button onclick="gotoLink(this)" value="contact.html" id="myBtn" type="button">Klik hier</button>
+            </div>
+            <div class="col">
+              <h3>Medium pakket:</h3>
+              <p>
+                Leefstijl advies met samengesteld voedingsschema.<br>
+                1 x per maand check up.
+              </p>
+              <button onclick="gotoLink(this)" value="contact.html" id="myBtn" type="button">Klik hier</button>
+            </div>
+            <div class="col">
+              <h3>Premium pakket:</h3>
+              <p>
+                Leefstijl advies met samengesteld voedingsschema.<br>
+                1 x per week check up.
+              </p>
+              <button onclick="gotoLink(this)" value="contact.html" id="myBtn" type="button">Klik hier</button>
+              <script>
+                function gotoLink(link){
+                  console.log(link.value)
+                  location.href = link.value;
+                }
+              </script>
+            </div>
+        </div>
+  </body>
+</html>

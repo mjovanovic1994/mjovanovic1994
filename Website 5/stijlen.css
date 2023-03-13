@@ -1,0 +1,223 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.hero {
+  height: 150vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(roofspiralstation.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.logo {
+  color: white;
+  font-size: 28px;
+}
+
+span {
+  color: #ea1538;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #ea1538;
+  transition: 0.3s;
+}
+
+button {
+  border: none;
+  background: #ea1538;
+  padding: 12px 30px;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  transition: 0.4;
+}
+
+button:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
+.flex-container {
+  padding: 5px;
+  max-width: 960px;
+  width: 95%;
+  margin: 20px auto;
+  display: flex;
+}
+
+h1 {
+  padding-left: 10px;
+}
+
+.col {
+  flex: 1;
+  border: 1px solid;
+  margin: 2px;
+  padding: 10px;
+}
+
+.img-profielfoto {
+  width: 10%;
+  padding-top: 10px;
+}
+
+h3,
+p {
+  color: white;
+}
+
+.contact {
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact .content {
+  max-width: 800px;
+  text-align: center;
+}
+
+.contact .content {
+  color: #fff;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  color: white;
+}
+
+.contactform {
+  padding-top: 50px;
+}
+.contactform span {
+  color: white;
+}
+.contactform h2 {
+  font-size: 30px;
+  color: white;
+  font-weight: 500;
+}
+
+.contactform .inputbox {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.contactform .inputbox input {
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid white;
+}
+
+.contactform .inputbox .send {
+  border: none;
+  background: #ea1538;
+  padding: 12px 30px;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  transition: 0.4;
+}
+
+.img-container {
+  width: 100%;
+  min-height: 440px;
+  background: var(--container-color);
+  display: grid;
+}
+
+.banner {
+  background: url(lifestyle\ coach.jpg);
+  width: 100%;
+  height: 70vh;
+  color: #ea1538;
+  background-size: 100%;
+}
+
+.banner-content {
+  padding-top: 120px;
+}
+
+.banner-content p {
+  padding-bottom: 50px;
+  color: #ea1538;
+  font-weight: bold;
+  font-size: large;
+}
+
+.banner-content h1 {
+  margin-bottom: 10px;
+  font-size: 160px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-family: sans-serif;
+  color: #ea1538;
+}
+
+img {
+  width: 30vh;
+  padding-top: 10px;
+}
+
+.overons-content {
+  color: white;
+}
+
+.images {
+  display: grid;
+  padding: 0;
+  margin: 0;
+}
+
+@media only screen and (max-width: 480px) {
+  html {
+    width: 100vw;
+    overflow-x: hidden;
+  }
+}
